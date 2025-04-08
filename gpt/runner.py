@@ -74,7 +74,7 @@ def load_model(checkpoint_path, device=None):
 
 def main():
     # Load the trained model
-    model = load_model("checkpoints/model_final.pth")
+    model = load_model("checkpoints/model_002.pth")
     
     print("GPT Model loaded and ready for text generation!")
     print("Enter 'quit' to exit")
